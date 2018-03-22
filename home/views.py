@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'12factor-vault', 'url': 'http://pypi.python.org/pypi/12factor-vault/0.1.16'},
     ]
     context = {
         'title': 'valeria-crowdbotics-31',
